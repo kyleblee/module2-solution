@@ -1,0 +1,85 @@
+/*Base Styles*/
+* {
+	font-family: "Avenir", sans-serif;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 175%;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 125%;
+	border: 1px solid black;
+	border-top: 0px;
+	border-right: 0px;
+	width: 125px;
+	height: 35px;
+	text-align: center;
+	padding-top: 4px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin-top: 0px;
+}
+
+p {
+	width: 92.5%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+}
+
+div {
+	position: relative;
+}
+
+.row {
+	width: 100%;
+}
+
+#h2-1 {
+	background-color: #89f0aa;
+}
+
+#h2-2 {
+	background-color: #f089cf;
+}
+
+#h2-3 {
+	background-color: #f0aa89;
+}
+
+/*Mobile Styles*/
+
+@media (max-width: 767px) {
+
+	.col-sm-12 {
+		float: left;
+		border: 1px solid black;
+		width: 87.5%;
+		margin-left: 7.5%;
+		margin-right: 5%;
+		margin-bottom: 20px;
+		background-color: #89cff0;
+
+	}
+	
+}
+
+
+/*Tablet Styles*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/*Desktop Styles*/
+
+@media (min-width: 992px) {
+
+}
+
